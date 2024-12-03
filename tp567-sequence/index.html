@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation du Dom</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 id="title">Manipulation du Dom</h1>
+        <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button id="btn">Clicker moi</button>
+    </div>
+    <div class="bom">
+        <button id="newfenetre">Ouvrir une nouvelle fenetre</button>
+    </div>
+
+    <div class="formulaire">
+        <form action="traitement.php" method="post" id="myform">
+            <input type="text" id="nom" placeholder="votre nom" style="width: 100%;">
+            <input type="email"  id="email" placeholder="votre email"  style="width: 100%;">
+            <button type="submit"  style="width: 100%;">Envoyer</button>
+        </form>
+    </div>
+
+    <script src="dom_bom.js"></script>
+</body>
+</html>
