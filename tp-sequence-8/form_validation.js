@@ -77,7 +77,7 @@ form.addEventListener('submit',function(event){
         erreur[2].innerHTML = ''
     }
     
-    if(isvalide){
+    if(inputEmail.value!=='' && inputName.value!=='' && inputPassword.value!=='' && isvalide){
         form.submit()
     }
 })

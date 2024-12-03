@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a7e9f6;
+    background-color: #dfe6e7;
 }
 span{
     color: red;
@@ -20,14 +20,14 @@ span{
     border: 1px solid ;
 }
 #myForm .erroner{
-    border: 1px solid red;
+    border: 2px solid red;
     background-color: rgb(214, 102, 102);
     opacity: 0.15;
 }
 #myForm .valider{
     border: 2px solid green;
     background-color: rgb(71, 136, 71);
-    opacity: 0.15;
+    opacity: 0.25;
 }
 #error{
     color: red;
